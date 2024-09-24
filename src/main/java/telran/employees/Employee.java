@@ -20,8 +20,6 @@ public class Employee {
     }
     @Override
     public boolean equals(Object obj) {
-        //TODO
-        //according to only id
-        throw new UnsupportedOperationException();
+        return id == ((Employee) obj).getId();
     }
 }
